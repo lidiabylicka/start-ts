@@ -1,20 +1,14 @@
-import { useTheme } from 'next-themes';
+'use client';
 
 const Container = ({
   theme,
   children,
 }: {
-  theme: string;
+  theme?: string;
   children: React.ReactNode;
 }) => {
   return (
-    <div
-      className={`flex flex-col min-h-screen ${
-        theme === 'dark' ? 'bg-mainDark' : 'bg-mainLight'
-      }`}>
-      {children}
-    </div>
+    <div className={`flex flex-col min-h-screen ${theme}`}>{children}</div>
   );
 };
-
 export default Container;

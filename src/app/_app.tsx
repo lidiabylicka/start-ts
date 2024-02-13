@@ -1,5 +1,3 @@
-import { ThemeProvider } from 'next-themes';
-
 import './globals.css';
 
 function MyApp({ Component, pageProps }) {
