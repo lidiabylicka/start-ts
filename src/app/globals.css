@@ -1,27 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* 
 :root {
   --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 80, 0, 80;
-  --background-end-rgb: 0, 0, 0;
-}
-
-.dark {
-  --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 80, 0, 80;
-  --background-end-rgb: 0, 0, 0;
-}
-
-.light {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 245, 240, 220; /* Light beige */
-  --background-end-rgb: 210, 200, 180; /* Dark beige */
-}
+  --background-start-rgb: 245, 240, 220;  light beige
+  --background-end-rgb: 210, 200, 180*/
 
 body {
   background-size: 100% 100vh;
+}
+
+* {
+  transition: all 0.1s ease;
 }
 
 @layer utilities {

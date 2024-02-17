@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className='flex flex-col items-start w-full font-mono text-sm lg:flex'>
       {' '}
-      <h1 className='text-xl'>NEXT + TS FIRST PROJECT</h1>
+      <h1 className='font-mono text-2xl font-bold'>NEXT + TS FIRST PROJECT</h1>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio deleniti
         qui mollitia dolore laboriosam aliquid ullam, necessitatibus quis dolor
