@@ -12,18 +12,16 @@ export const metadata: Metadata = {
   description: 'My first Next.js + TS project',
 };
 
-export default function RootLayout({
-  children,
-  theme,
-}: Readonly<{
+interface RootLayoutProps {
   children: React.ReactNode;
-  theme: string | undefined;
-}>) {
+  theme?: string;
+}
+
+export default function RootLayout({ children, theme }: RootLayoutProps) {
   return (
     <html lang='en'>
       <body suppressHydrationWarning={true}>
         <Providers>
-          {/* reminder to add Error Boundary */}
           <Container>
             <Header />
             <div className='p-10 flex-grow'>{children}</div>
