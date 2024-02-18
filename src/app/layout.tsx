@@ -12,10 +12,10 @@ export const metadata: Metadata = {
   description: 'My first Next.js + TS project',
 };
 
-interface RootLayoutProps {
+type RootLayoutProps = {
   children: React.ReactNode;
   theme?: string;
-}
+};
 
 export default function RootLayout({ children, theme }: RootLayoutProps) {
   return (
