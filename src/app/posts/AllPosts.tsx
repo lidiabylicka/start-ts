@@ -32,7 +32,7 @@ export default function AllPosts() {
       {posts?.map((post) => (
         <div key={post.id} className='mb-5'>
           <div className='flex flex-col justify-between border hover:text-gray-300 dark:hover:text-purple-700 bg-footer-light dark:bg-black hover:bg-footer-black dark:hover:bg-footer-light dark:border-gray-500 rounded-md py-5 px-10 h-postCard items-center'>
-            <h1 className='font-mono lg:text-lg line-clamp-4 font-bold'>
+            <h1 className='font-mono lg:text-lg xs:text-2xl line-clamp-4 font-bold'>
               {post.title}
             </h1>
             <Link href={`/posts/${post.id}`}>
