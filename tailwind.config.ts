@@ -28,6 +28,7 @@ const config: Config = {
       },
       height: {
         header: '60px',
+        postCard: '200px',
       },
       backgroundColor: {
         'header-black': 'black',

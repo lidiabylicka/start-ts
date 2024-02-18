@@ -18,7 +18,7 @@ export default function Links() {
           <li key={route.href}>
             <Link
               href={route.href}
-              className={`text-zinc-400 transition ${
+              className={`text-zinc-400 lg:p-1 rounded hover:bg-purple-900 hover:text-white transition ${
                 pathname === route.href ? 'underline' : ''
               }`}>
               {route.label}
