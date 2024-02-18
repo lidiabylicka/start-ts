@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body suppressHydrationWarning>
+      <body suppressHydrationWarning={true}>
         <Providers>
           {/* reminder to add Error Boundary */}
           <Container>
