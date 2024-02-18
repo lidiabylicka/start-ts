@@ -28,13 +28,17 @@ const config: Config = {
       },
       height: {
         header: '60px',
-        postCard: '200px',
+        postCard: '400px',
       },
       backgroundColor: {
         'header-black': 'black',
         'footer-black': 'black',
         'header-light': 'lightgray',
         'footer-light': 'lightgray',
+      },
+      screens: {
+        xs: '480px',
+        sm: '564px',
       },
     },
     plugins: [require('flowbite/plugin')],
